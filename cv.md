@@ -21,8 +21,7 @@ I think, if I do my best, I can achieve everything
  
 ## Skills:
  
-- HTML5
-- CSS3
+- HTML5, CSS3
 - Javascript basics
 - Sublime text, VS code
  
