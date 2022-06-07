@@ -32,5 +32,5 @@ I think, if I do my best, I can achieve everything
 ## Code examples:
  
 function multiply(a, b){
-  a * b
+  return(a * b)
 }
