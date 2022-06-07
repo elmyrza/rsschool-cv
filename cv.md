@@ -33,3 +33,12 @@ I think, if I do my best, I can achieve everything
 function multiply(a, b){
   return(a * b)
 }
+ 
+***
+ 
+ 
+## Languages:
+ 
+- English - Advanced level
+- Russian - Native
+- Kyrgyz - Fluently
