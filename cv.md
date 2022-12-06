@@ -13,7 +13,7 @@ E-mail: elmyrza.ken@mail.ru
 ## About myself:
  
 I want to become a front-end developer. So to achieve my goals, I am going to learn js and frameworks.
-I have not worked anywhere so far. But I want to work as a developer. I like self-studying, because I like feeling like I am developing.
+I have not worked anywhere so far. But I want to work as a developer. I like self-studying, because I like feeling I am developing.
  
 I think, if I do my best, I can achieve everything
  
