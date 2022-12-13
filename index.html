@@ -4,7 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rsschool-cv-html</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
-<body></body>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#ed" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container container-main">
+            <section class="profile">
+            <div class="profile-photo">
+                <img src="assets/elon-musk.jpg" alt="Илон Маск">
+            </div>
+        <div class="profile-text">
+            <h1>Elmyrza Kudaibergenov</h1>
+            <span>JUNIOR FRONT-END DEVELOPER
+            </span>
+        </div>
+        </section>
+        <section class="section-content">
+            <section class="section" id="contacts">
+                <h2 class="section-title">
+                    CONTACTS
+                </h2>
+                <div class="main-text">
+                    <div class="email main-text-item">
+                        <img src="assets/icons/email.png" alt="" class="email-img">
+                        <div class="email-text">Email: <span>elmyrza@mail.ru</span></div>
+                    </div>
+                    <div class="telegram main-text-item">
+                        <img src="assets/icons/telegram.png" alt="" class="telegram-img">
+                        <div class="telegram-text">Telegram: <span>@elmyrza</span></div>
+                    </div>
+                    <div class="github main-text-item">
+                        <img src="assets/icons/github.png" alt="" class="github-img">
+                        <div class="github-text">Github: <a href="https://github.com/elmyrza">elmyrza</a></div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">
+                    SUMMARY
+                </h2>
+                <div class="main-text">
+                    I want to become a front-end developer. So to achieve my goals, I am going to learn js and frameworks.
+I have not worked anywhere so far. But I want to work as a developer. I like self-studying, because I like feeling like I am developing.
+ <br><br>
+I think, if I do my best, I can achieve everything!
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">
+                    SKILLS
+                </h2>
+                <div class="main-text">
+                    <ul class="skill-list">
+                        <li class="skill-item"><img src="assets/icons/points.png" alt=""><span class="skill-point">HTML5, CSS3</span></li>
+                        <li class="skill-item"><img src="assets/icons/points.png" alt=""><span class="skill-point">Javascript basics</span></li>
+                        <li class="skill-item"><img src="assets/icons/points.png" alt=""><span class="skill-point">Sublime text, VS code</span></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">
+                    Code
+                </h2>
+                <div class="main-text">
+                    <pre>greet('Элмырза', 22)
+
+function greet (name, age) {
+    console.log('Меня зовут ' + name);
+    console.log('Мне ' + age+' года');
+}</pre>
+                </div>
+            </section>
+            <section class="section" id="ed">
+                <h2 class="section-title">
+                    EducAtion
+                </h2>
+                <div class="main-text">
+                    Harvard
+                </div>
+            </section>
+            <section class="section" id="lang">
+                <h2 class="section-title">
+                    English
+                </h2>
+                <div class="main-text">
+                    C1 - Advanced
+                </div>
+            </section>
+        </section>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+          <div>© 2022 <a href="https://github.com/elmyrza" class="nav-link">elmyrza</a></div>
+          <a href="https://rs.school/js/" class="rs-logo"></a>
+        </div>
+      </footer>
+</body>
 </html>
